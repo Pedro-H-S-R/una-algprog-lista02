@@ -1,0 +1,13 @@
+INÍCIO
+
+Ler valor_saque
+Ler saldo_disponivel
+
+SE valor_saque <= saldo_disponivel ENTÃO
+    saldo_disponivel = saldo_disponivel - valor_saque
+    Entregar notas
+SENÃO
+    Exibir "Saldo insuficiente"
+FIM SE
+
+FIM
