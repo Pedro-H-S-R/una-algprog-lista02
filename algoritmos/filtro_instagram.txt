@@ -1,0 +1,21 @@
+INÍCIO
+
+Usuário escolhe uma foto
+
+Perguntar: Aplicar filtro P&B?
+
+SE SIM ENTÃO
+    Transformar imagem em cinza
+SENÃO
+    Manter imagem original
+FIM SE
+
+Perguntar: Postar agora?
+
+SE SIM ENTÃO
+    Enviar foto para o servidor
+SENÃO
+    Salvar na galeria
+FIM SE
+
+FIM
